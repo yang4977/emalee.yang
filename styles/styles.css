@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial'
+  }
+
+
+ .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+header {
+  background-color: darkcyan
+}
+
+h1 {
+	color: lightcyan;
+	background-color: darkcyan;
+}
+
+h3 {
+	color: darkcyan;
+	background-color: floralwhite;
+}
+
+main {
+  background-color: lightcyan;
+  padding: 30px
+}
+
+<style>
+a:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+img {
+  padding: 50px
+}
+
+
+footer {
+  background-color: Darkcyan
+}
